@@ -132,10 +132,11 @@ PIMPGeomSPILowVeto::PIMPGeomSPILowVeto(const G4MaterialTable* Materials, PIMPSen
   //----------------------------------------------------------------------------------------------------//
   const G4String SPILowVetoBeTile1Name = "SPILowVetoBeTile1"; // SVBE
   G4Trap* s_SPILowVetoBeTile1 = new G4Trap(SPILowVetoBeTile1Name,
-					2.5*cm,
-					5.86*deg,270.0*deg,
-					7.862*cm,16.01955*cm,11.8275*cm,0.*deg,
-					5.77255*cm,11.6509*cm,8.5731*cm,0.*deg );
+            2.5*cm,
+            5.86*deg, 270*deg,
+            7.862*cm, 16.01949999491126*cm, 11.82755000508874*cm, 0*deg,
+            5.77255*cm, 11.6509367154509*cm, 8.573063284549097*cm, 0*deg );
+
   Material =  PIMPSelectMaterial("BGO", Materials);
   G4LogicalVolume* l_SPILowVetoBeTile1 = new G4LogicalVolume(s_SPILowVetoBeTile1,
 							  Material,
@@ -196,6 +197,7 @@ PIMPGeomSPILowVeto::PIMPGeomSPILowVeto(const G4MaterialTable* Materials, PIMPSen
 					30.0*deg,60.0*deg,
 					10.55*cm,7.665*cm,7.665*cm,0.*deg,
 					8.05*cm,6.2216*cm,6.2216*cm,0.*deg );
+
   Material =  PIMPSelectMaterial("BGO", Materials);
   G4LogicalVolume* l_SPILowVetoBeTile2 = new G4LogicalVolume(s_SPILowVetoBeTile2,
 							  Material,
@@ -259,10 +261,11 @@ PIMPGeomSPILowVeto::PIMPGeomSPILowVeto(const G4MaterialTable* Materials, PIMPSen
 
   const G4String SPILowVetoBeTile3Name = "SPILowVetoBeTile3"; // SVBG
   G4Trap* s_SPILowVetoBeTile3 = new G4Trap(SPILowVetoBeTile3Name,
-					   0.38835*cm,
-					   29.7*deg,106.1*deg,
-					   2.5*cm,7.665*cm,6.2216*cm,-16.1*deg,
-					   2.11165*cm,7.4408*cm,6.2216*cm,-16.1*deg );
+            0.38835*cm,
+            29.7*deg, 106.1*deg,
+            2.5*cm, 7.665005255369024*cm, 6.221594744630975*cm, -16.1*deg,
+            2.11165*cm, 7.440795561*cm, 6.221604439*cm, -16.1*deg );
+
   Material =  PIMPSelectMaterial("BGO", Materials);
   G4LogicalVolume* l_SPILowVetoBeTile3 = new G4LogicalVolume(s_SPILowVetoBeTile3,
 							  Material,
@@ -469,10 +472,10 @@ PIMPGeomSPILowVeto::PIMPGeomSPILowVeto(const G4MaterialTable* Materials, PIMPSen
 
   const G4String SPILowVetoBeTile8Name = "SPILowVetoBeTile8"; // SVBL
   G4Trap* s_SPILowVetoBeTile8 = new G4Trap(SPILowVetoBeTile8Name,
-					   2.5*cm,
-					   23.321*deg,253.915*deg,
-					   4.5*cm,8.096*cm,6.26*cm,-11.53*deg,
-					   4.5*cm,7.499*cm,5.6626*cm,-11.53*deg); 
+            2.5*cm,
+            23.321*deg, 253.915*deg,
+            4.5*cm, 8.0961*cm, 6.2599*cm, -11.53*deg,
+            4.5*cm, 7.4989*cm, 5.6627*cm, -11.53*deg );
 
   Material =  PIMPSelectMaterial("BGO", Materials);
   G4LogicalVolume* l_SPILowVetoBeTile8 = new G4LogicalVolume(s_SPILowVetoBeTile8,
@@ -529,10 +532,10 @@ PIMPGeomSPILowVeto::PIMPGeomSPILowVeto(const G4MaterialTable* Materials, PIMPSen
 
   const G4String SPILowVetoBeTile9Name = "SPILowVetoBeTile9"; // SVBM
   G4Trap* s_SPILowVetoBeTile9 = new G4Trap(SPILowVetoBeTile9Name,
-					   2.5*cm,
-					   23.321*deg,286.085*deg,
-					   4.5*cm,8.096*cm,6.26*cm,11.53*deg,
-					   4.5*cm,7.499*cm,5.6626*cm,11.53*deg); 
+            2.5*cm,
+            23.321*deg, 286.085*deg,
+            4.5*cm, 8.0961*cm, 6.2599*cm, 11.53*deg,
+            4.5*cm, 7.4989*cm, 5.6627*cm, 11.53*deg );
 
   Material =  PIMPSelectMaterial("BGO", Materials);
   G4LogicalVolume* l_SPILowVetoBeTile9 = new G4LogicalVolume(s_SPILowVetoBeTile9,

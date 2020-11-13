@@ -134,9 +134,8 @@ int main(int argc, char** argv) {
         runManager->Initialize();
         UIm->ApplyCommand("/control/execute ../mac/vis.mac");
         UIe->SessionStart();
-        delete visManager;
-        delete UIm;
         delete UIe;
+        delete visManager;
     }
     else {// batch mode
         // Define type of simulation and read in parameters

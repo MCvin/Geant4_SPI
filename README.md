@@ -2,6 +2,7 @@
 
                                 PIMP - Post-launch INTEGRAL Mass Model Package
                                                 ----------
+![PIMP](top_side_view.png)
 
 Authors: Maxime Chauvin
 based on code developed by Dave Willis and Dave Clark
