@@ -5,7 +5,7 @@
 ![PIMP](top_side_view.png)
 
 Authors: Maxime Chauvin
-based on code developed by Dave Willis and Dave Clark
+based on code developed by Dave Willis and Dave Clark.
 
 ## 1 - INTRODUCTION
 
@@ -15,7 +15,7 @@ modeled but only SPI is modeled in details.
 
 ## 2 - GEOMETRY DEFINITION
 
-The geometry is build from 
+The geometry is build from ...(to be completed)
 
 ## 3 - PHYSICS LIST
 
@@ -34,16 +34,17 @@ RegisterPhysics(new G4RadioactiveDecayPhysics());
 
 ## 4 - SOURCE
 
-The particles are generated from 
+The particles are generated from ...(to be completed)
 
 ## 5 - SCORER AND OUTPUT
 
-Energy deposits are scored inside the germanium detectors...
+Energy deposits are scored inside the germanium detectors ...(to be completed)
 
-The simulation ouput an fits file which provides 
+The simulation ouput a fits file which provides ...(to be completed)
 
 ## 6 - PSEUDO RANDOM GENERATOR
 
+...(to be completed)
 
 ## A - VISUALISATION
 
@@ -59,7 +60,9 @@ all events and erased at the beginning of the next run.
 
 ## B - HOW TO BUILD
 
-Dependencies: libcfitsio-dev
+Dependencies: cfitsio https://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html
+- on linux `apt install libcfitsio-dev`
+- on MacOS `brew install cfitsio`
 
 You need to have the G4 environment variables set up in your terminal session. 
 If it is not done in your .bashrc or .profile you need to do this first 
