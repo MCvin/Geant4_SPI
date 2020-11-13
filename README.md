@@ -23,7 +23,7 @@ The physics list contains the following PhysicsList classes as Geant4
 modular physics list with registered physics builders provided in Geant4:
 ```c++
 // EM physics
-RegisterPhysics(new G4EmLivermorePhysics());
+RegisterPhysics(new G4EmLivermorePolarizedPhysics());
 
 // Decay
 RegisterPhysics(new G4DecayPhysics());
