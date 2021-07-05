@@ -9,9 +9,9 @@ based on code developed by Dave Willis and Dave Clark.
 
 ## 1 - INTRODUCTION
 
-Geant4_Spi is a Geant4 application for the instrument response simulation of 
+Geant4_SPI is a Geant4 application for the instrument response simulation of 
 the SPectrometer on-board Integral (SPI). The whole Integral satellite is 
-modeled but only SPI is modeled in details.
+modeled but only SPI is modeled with details.
 
 ## 2 - GEOMETRY DEFINITION
 
